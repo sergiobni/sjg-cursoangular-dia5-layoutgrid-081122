@@ -1,0 +1,32 @@
+body {
+  background-color: bisque;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  background-color: darkgrey;
+  /* Elementos grid */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 5fr 1fr 1fr;
+  gap: 5px;
+}
+.box {
+  background-color: blueviolet;
+  color: aliceblue;
+  text-align: center;
+}
+.b1 {
+  /* marcar que la primera celda abarque todas las columnas */
+  grid-column: 1 / 5;
+}
+.b2 {
+  grid-row: 2/4;
+}
+.b3 {
+  grid-column: 2/5;
+}
+.b7 {
+  grid-column: 1/5;
+}
