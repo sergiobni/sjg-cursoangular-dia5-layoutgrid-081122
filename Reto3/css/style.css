@@ -5,6 +5,18 @@ body {
   margin-right: 5px;
 }
 
+li {
+  display: inline;
+  padding: 1em;
+  color: aliceblue;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  color: aliceblue;
+}
+
 .container {
   height: 100vh;
   background-color: black;
@@ -31,7 +43,7 @@ body {
   margin-left: 2px;
   grid-column: 2/5;
   color: aliceblue;
-  line-height: 2.6em;
+  line-height: 4em;
 }
 
 ul {
@@ -46,7 +58,7 @@ li {
   background-color: black;
   margin-left: auto;
   margin-right: 0;
-  line-height: 2.6em;
+  line-height: 4em;
 }
 
 /* Contenido principal de la web */
@@ -77,12 +89,16 @@ li {
 }
 
 .blockimg {
-  background-color: coral;
+  background-color: black;
+  background-image: url(../assets/325117.jpg);
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 /* Footer */
 .footer {
-  background-color: blue;
+  background-color: black;
   grid-column: 1 / 6;
   text-align: center;
   color: aliceblue;
