@@ -10,6 +10,9 @@ li {
   padding: 1em;
   color: aliceblue;
 }
+a {
+  color: aliceblue;
+}
 a:link {
   text-decoration: none;
   color: aliceblue;
