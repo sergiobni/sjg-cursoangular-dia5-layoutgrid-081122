@@ -10,8 +10,12 @@ li {
   padding: 1em;
   color: aliceblue;
 }
+a {
+  color: aliceblue;
+}
 a:link {
   text-decoration: none;
+  color: aliceblue;
 }
 a:visited {
   color: aliceblue;
@@ -103,3 +107,5 @@ li {
   text-align: center;
   color: aliceblue;
 }
+
+/* prueba */
